@@ -24,6 +24,7 @@
 .merah{
     background-color: red;
     grid-area: merah;
+    color: yellow;
 }
 
 .hijau{
@@ -59,6 +60,7 @@
 .biru_tua{
     background-color:blue;
     grid-area: biru_tua;
+    color: yellow;
 }
 
 .jingga{
