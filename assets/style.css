@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    grid-template-areas:    
+    "merah hijau hijau ungu ungu"
+    "merah pink hijau_muda hijau_muda hijau_muda"
+    "merah pink biru biru_tua biru_tua"
+    "jingga pink biru biru_tua biru_tua"
+    "jingga kuning kuning biru_tua biru_tua"
+    "jingga kuning kuning biru_tua biru_tua";
+}
+
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+.merah{
+    background-color: red;
+    grid-area: merah;
+}
+
+.hijau{
+    background-color:green;
+    grid-area: hijau;
+}
+
+.ungu{
+    background-color:purple;
+    grid-area: ungu;
+}
+
+.pink{
+    background-color:pink;
+    grid-area: pink;
+}
+
+.kuning{
+    background-color:yellow;
+    grid-area: kuning;
+}
+
+.biru{
+    background-color: green;
+    grid-area: biru;
+}
+
+.hijau_muda{
+    background-color:gold;
+    grid-area: hijau_muda;
+}
+
+.biru_tua{
+    background-color:blue;
+    grid-area: biru_tua;
+}
+
+.jingga{
+    background-color:rgb(187, 187, 27);
+    grid-area: jingga;
+}
