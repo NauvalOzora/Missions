@@ -1,0 +1,27 @@
+header{
+    display: flex;
+}
+
+nav{
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: grey;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+
+nav a:hover{
+    font-weight: bold;
+}
