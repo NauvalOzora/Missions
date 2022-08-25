@@ -11,59 +11,88 @@
     "jingga kuning kuning biru_tua biru_tua";
 }
 
-.box{
+.container>div{
+    display: flex;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
 
 .merah{
-    background-color: red;
     grid-area: merah;
-    color: yellow;
+}
+
+.bgmerah{
+    background-color: red;
 }
 
 .hijau{
-    background-color:green;
     grid-area: hijau;
 }
 
+.bghijau{
+    background-color:green;
+}
+
 .ungu{
-    background-color:purple;
     grid-area: ungu;
 }
 
+.bgungu{
+    background-color:purple;
+}
+
 .pink{
-    background-color:pink;
     grid-area: pink;
 }
 
+.bgpink{
+    background-color:pink;
+}
+
 .kuning{
-    background-color:yellow;
     grid-area: kuning;
 }
 
+.bgkuning{
+    background-color:yellow;
+}
+
 .biru{
-    background-color: green;
     grid-area: biru;
 }
 
+bg.biru{
+    background-color: green;
+}
+
 .hijau_muda{
-    background-color:gold;
     grid-area: hijau_muda;
 }
 
+.bghijau_muda{
+    background-color:gold;
+}
+
 .biru_tua{
-    background-color:blue;
     grid-area: biru_tua;
-    color: yellow;
+}
+
+.bgbiru_tua{
+    background-color:blue;
 }
 
 .jingga{
-    background-color:rgb(187, 187, 27);
     grid-area: jingga;
+}
+
+.bgjingga{
+    background-color:rgb(187, 187, 27);
+}
+
+.fontkuning{
+    color: yellow;
 }
