@@ -87,6 +87,10 @@ h3{
     font-size: 25px;
 }
 
+h3 a{
+    color: rgb(218, 1, 1);
+}
+
 h4{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
