@@ -1,98 +1,98 @@
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    padding: 10px;
-    grid-template-areas:    
-    "merah hijau hijau ungu ungu"
-    "merah pink hijau_muda hijau_muda hijau_muda"
-    "merah pink biru biru_tua biru_tua"
-    "jingga pink biru biru_tua biru_tua"
-    "jingga kuning kuning biru_tua biru_tua"
-    "jingga kuning kuning biru_tua biru_tua";
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+  grid-template-areas:
+    'merah hijau hijau ungu ungu'
+    'merah pink hijau_muda hijau_muda hijau_muda'
+    'merah pink biru biru_tua biru_tua'
+    'jingga pink biru biru_tua biru_tua'
+    'jingga kuning kuning biru_tua biru_tua'
+    'jingga kuning kuning biru_tua biru_tua';
 }
 
-.container>div{
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-.merah{
-    grid-area: merah;
+.container > div {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.bgmerah{
-    background-color: red;
+.merah {
+  grid-area: merah;
 }
 
-.hijau{
-    grid-area: hijau;
+.bgmerah {
+  background-color: red;
 }
 
-.bghijau{
-    background-color:green;
+.hijau {
+  grid-area: hijau;
 }
 
-.ungu{
-    grid-area: ungu;
+.bghijau {
+  background-color: green;
 }
 
-.bgungu{
-    background-color:purple;
+.ungu {
+  grid-area: ungu;
 }
 
-.pink{
-    grid-area: pink;
+.bgungu {
+  background-color: purple;
 }
 
-.bgpink{
-    background-color:pink;
+.pink {
+  grid-area: pink;
 }
 
-.kuning{
-    grid-area: kuning;
+.bgpink {
+  background-color: pink;
 }
 
-.bgkuning{
-    background-color:yellow;
+.kuning {
+  grid-area: kuning;
 }
 
-.biru{
-    grid-area: biru;
+.bgkuning {
+  background-color: yellow;
 }
 
-bg.biru{
-    background-color: green;
+.biru {
+  grid-area: biru;
 }
 
-.hijau_muda{
-    grid-area: hijau_muda;
+bg.biru {
+  background-color: green;
 }
 
-.bghijau_muda{
-    background-color:gold;
+.hijau_muda {
+  grid-area: hijau_muda;
 }
 
-.biru_tua{
-    grid-area: biru_tua;
+.bghijau_muda {
+  background-color: gold;
 }
 
-.bgbiru_tua{
-    background-color:blue;
+.biru_tua {
+  grid-area: biru_tua;
 }
 
-.jingga{
-    grid-area: jingga;
+.bgbiru_tua {
+  background-color: blue;
 }
 
-.bgjingga{
-    background-color:rgb(187, 187, 27);
+.jingga {
+  grid-area: jingga;
 }
 
-.fontkuning{
-    color: yellow;
+.bgjingga {
+  background-color: rgb(187, 187, 27);
+}
+
+.fontkuning {
+  color: yellow;
 }
